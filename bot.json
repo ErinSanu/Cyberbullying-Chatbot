@@ -1,0 +1,283 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!.I am your personal chatbot and i can help you to know about          ====>A) TYPES OF CYBER THREATS ====>.B)AWARENESS OF MENTAL EFFECTS DUE TO CYBER BULLYING . ====>C)TYPES OF CYBER BULLYING. ====>D)PREVENTION METHODS ====>E)HOW TO REPORT CYBER CRIME .====>F)TYPE HELP IF YOU ARE MENTALLY EFFECTED",
+    "required_words": []
+  },
+
+{
+  "response_type": "greeting",
+  "user_input": ["what","can","you","do"],
+  "bot_response": "Hey there!.I am your personal chatbot and i can help you to know about          ====>1) TYPES OF CYBER THREATS  ====>.2)AWARENESS OF MENTAL EFFECTS DUE TO CYBER BULLYING . ====>3)TYPES OF CYBER BULLYING. ====>4)PREVENTION METHODS .5)HOW TO REPORT CYBER CRIME .====>6)TYPE HELP IF YOU ARE MENTALLY EFFECTED",
+  "required_words": ["what","can","you","do"]
+},
+
+{
+  "response_type": "greeting",
+  "user_input": ["what","is","cyber","security"],
+  "bot_response": "Cybersecurity involves protecting computer systems, networks, and data from digital threats, including hacking, unauthorized access, and data breaches, through a combination of technology, processes, and awareness measures.",
+  "required_words": ["what","is","cyber","security"]
+},
+
+
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  
+ 
+ 
+  {
+    "response_type": "question",
+    "user_input": ["how","are","you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are"]
+  },
+
+
+  {
+    "response_type": "question",
+    "user_input": ["threats","types","cyber","few","A"],
+    "bot_response": "Malware--->Phishing--->Social Engineering--->Keyloggers--->Man in the Middle--->Data breaches--->Social Engineering--->Insider Threats--->Zero day exploits--->Cryptojacking--->Ransomware--->DoS. Which one do you want to know about?",
+    "required_words": ["threats","cyber"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["dos","tell","me"],
+      "bot_response": "A denial-of-service (DoS) attack is a cyberattack on devices, information systems, or other network resources that prevents legitimate users from accessing expected services and resources.",
+      "required_words": ["dos"]
+      },
+
+    {
+      "response_type": "question",
+      "user_input": ["malware"],
+      "bot_response": "Malware is malicious software designed to infiltrate systems and cause damage. This category includes viruses, worms, Trojans, ransomware, spyware, and adware",
+      "required_words": ["malware"]
+      },
+      {
+      "response_type": "question",
+      "user_input": ["phishing","know"],
+      "bot_response": " Phishing involves sending fraudulent emails, messages, or websites that appear to be from legitimate sources in order to deceive individuals into revealing sensitive information, such as passwords, credit card numbers, or personal details.",
+      "required_words": ["phishing"]
+      },
+
+      {
+        "response_type": "question",
+        "user_input": ["keyloggers"],
+        "bot_response": "Keyloggers are malicious software that secretly record and transmit keystrokes from a user's keyboard, allowing attackers to capture sensitive information like passwords and personal data without the user's knowledge or consent.",
+        "required_words": ["keyloggers"]
+        },
+
+        {
+          "response_type": "question",
+          "user_input": ["ransomware"],
+          "bot_response": "Ransomware is a type of malware that encrypts a victim's files or entire system and demands a ransom payment in exchange for the decryption key needed to unlock the data.",
+          "required_words": ["ransomware"]
+          },
+
+          {
+          "response_type": "question",
+          "user_input": ["denial","attacks","tell","me"],
+          "bot_response": "These attacks overwhelm a network, system, or website with excessive traffic or requests, rendering them inaccessible to users.",
+          "required_words": ["denial"]
+          },
+
+          {
+            "response_type": "question",
+            "user_input": ["middle"],
+            "bot_response": "In this type of attack, an attacker intercepts communication between two parties without their knowledge, potentially stealing sensitive information or altering the communication.",
+            "required_words": ["middle "]
+            },
+
+            {
+            "response_type": "question",
+            "user_input": ["breaches","tell","data","me","I"],
+            "bot_response": "Data breaches involve unauthorized access to and theft of sensitive information, such as personal data, login credentials, and financial records",
+            "required_words": ["breaches"]
+            },
+            {
+            "response_type": "question",
+            "user_input": ["social","engineering"],
+            "bot_response": "Social engineering attacks manipulate individuals into divulging confidential information or performing actions that compromise security. This can involve tactics like pretexting, baiting, and tailgating.",
+            "required_words": ["engineering"]
+            },
+  
+            {
+              "response_type": "question",
+              "user_input": ["insider","threats"],
+              "bot_response": " These threats come from individuals within an organization who misuse their access privileges to steal information, compromise systems, or cause damage.",
+              "required_words": ["insider"]
+              },
+              {
+              "response_type": "question",
+              "user_input": ["zero","day"],
+              "bot_response": " Zero-day exploits target vulnerabilities in software or hardware that are unknown to the vendor or developers. Hackers exploit these vulnerabilities before a fix or patch is available.",
+              "required_words": ["zero"]
+              },
+
+              {
+                "response_type": "question",
+                "user_input": ["cryptojacking"],
+                "bot_response": " This involves hijacking a victim's computer processing power to mine cryptocurrencies without their knowledge or consent.",
+                "required_words": ["cryptojacking"]
+                },
+  {
+    "response_type": "question",
+"user_input": ["types","of","bullying","cyber","few"],
+"bot_response": "Types of cyber bullying are...--->Flaming--->Exclusion and Social Manipulation--->Impersonation--->Outing and Doxxing--->Cyberstalking--->Catfishing--->Photoshopping and Digital Manipulation--->Hate Speech and Discrimination. Which one do you want to know about?",
+"required_words": ["types","bullying"]
+  },
+
+  
+
+    {
+      "response_type": "question",
+      "user_input": ["flaming"],
+      "bot_response": "Engaging in online arguments with hostile and aggressive language, often escalating into a heated exchange.",
+      "required_words": ["flaming"]
+      },
+      {
+      "response_type": "question",
+      "user_input": ["exclusion", " and", " social", "manipulation"],
+      "bot_response": "Deliberately excluding someone from online groups, conversations, or events to isolate them socially.",
+      "required_words": ["exclusion", "social"]
+      },
+
+      {
+        "response_type": "question",
+        "user_input": ["impersonation"],
+        "bot_response": " Creating fake profiles or accounts to impersonate the victim and spread false or damaging information.",
+        "required_words": ["impersonation"]
+        },
+        {
+        "response_type": "question",
+        "user_input": ["outing", " and", "doxxing"],
+        "bot_response": "  Sharing personal, private, or embarrassing information about someone without their consent.",
+        "required_words": [ "doxxing"]
+        },
+
+
+        {
+          "response_type": "question",
+          "user_input": ["outing", " and", "doxxing"],
+          "bot_response": "  Sharing personal, private, or embarrassing information about someone without their consent.",
+          "required_words": ["outing"]
+          },
+
+  {
+    "response_type": "question",
+"user_input": ["cyberstalking"],
+"bot_response": "  Repeatedly sending unwanted, intrusive, and obsessive messages to an individual, often with the intent to frighten them.",
+"required_words": ["cyberstalking"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["catfishing"],
+    "bot_response": "  Creating fake online personas to deceive and manipulate others emotionally, often in the context of online relationships.",
+    "required_words": ["catfishing"]
+    },
+    {
+    "response_type": "question",
+    "user_input": ["photoshopping", "and", "digital", "manipulation"],
+    "bot_response": "  Altering images of someone to create misleading or embarrassing content that is shared online.",
+    "required_words": ["photoshopping"]
+    },
+
+    {
+      "response_type": "question",
+      "user_input": ["photoshopping", "and", "digital", "manipulation"],
+      "bot_response": "  Altering images of someone to create misleading or embarrassing content that is shared online.",
+      "required_words": [ "digital", "manipulation"]
+      },
+
+    {
+      "response_type": "question",
+      "user_input": ["Hate", "Speech", "and", "Discrimination"],
+      "bot_response": "  Altering images of someone to create misleading or embarrassing content that is shared online.",
+      "required_words": ["Hate", "Speech", "Discrimination"]
+      },
+
+      {
+        "response_type": "question",
+        "user_input": ["report", "cyber", "buylling "],
+        "bot_response": "Here are a few official and trusted websites where you can report cyber buylling... --->You can BLOCK and REPORT a person in almost all social media        --->National Cyber Crime Reporting Portal ***cybercrime.gov.in***        --->Childline India ***childlineindia.org.in***         --->National Commission for Protection of Child Rights (NCPCR) ***ncpcr.gov.in***        --->Indian Cyber Crime Coordination Centre (I4C) *** i4c.gov.in***        --->Cyber Peace Foundation ***cyberpeace.org***        !!!REMEMBER!!!PROVIDE AS MUCH AS INFORMATION AS POSSIBLE WHEN REPORTING, INCLUDING SCREENSHOTS, TIME, USERNAMES OR ACCOUNTS...         ",
+        "required_words": ["report"]
+        },
+
+        {
+          "response_type": "question",
+          "user_input": ["help"],
+          "bot_response": "What are you going through ***Under Depression***  ***Being Harassed*** ***Suicidal thoughts*** ***Nothing, I'am good!***  ***Anxiety***",
+          "required_words": ["help"]
+          },
+
+  {
+    "response_type": "question",
+"user_input": ["illness", "mental", "types","effects"],
+"bot_response": "Anxiety Disorders--->Depression--->Eating Disorders--->Self-Harm--->Low Self-Esteem--->Substance Abuse--->Isolation and Loneliness--->Trust and Relationship Issues",
+"required_words": [ "mental"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["depression"],
+    "bot_response": "I'm really sorry to hear that you're feeling this way. It's important to reach out to a mental health professional or a counselor who can provide guidance and support in navigating the impact of cyberbullying on your mental health",
+    "required_words": ["depression"]
+    
+    },
+
+    {
+      "response_type": "question",
+      "user_input": ["anxiety"],
+      "bot_response": "Try taking some deep breaths. Stay away from social media for a while",
+      "required_words": ["anxiety"]
+      
+      },
+
+
+    
+  {
+    "response_type": "question",
+    "user_input": ["nothing"],
+    "bot_response": "I'M SO PROUD OF YOU!!!!!! . Stay Safe",
+    "required_words": ["nothing"]
+    
+    },
+    
+    
+    {
+    "response_type": "question",
+    "user_input": ["suicidal"],
+    "bot_response": "Your safety is important. Stay calm and remember you're not alone, and there are people who care and want to help you through this.",
+    "required_words": ["suicidal"]
+    
+    },
+
+    {
+      "response_type": "question",
+      "user_input": ["harassed","i"],
+      "bot_response": "If u are being harassed try to limit online exposure and immediately report it to the authorities and talk to some one you trust such as friends or families",
+      "required_words": ["harassed"]
+      
+      },
+  {
+    "response_type": "question",
+    "user_input": ["prevention"],
+     "bot_response": "There are a lot of strategies that you can use to prevent cyber bullying...     --->EDUCATEyourself!--->Be cautious about sharing your personal information.--->Create STRONG PASSWORDS for your online accounts.--->THINK BEFORE YOU POST!--->Report cyber bullying.--->Make all your accounts to PRIVATE.--->Have a 2 or 3 step verification.--->Don't stay silent STAND UP FOR THE VICTIM.--->Set boundaries.",
+     "required_words": ["prevention"]
+  }
+
+  
+       
+          
+                
+
+
+
+
+        
+]
